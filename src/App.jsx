@@ -26,7 +26,7 @@ function App() {
       <section>
         {
           launches.map((launch) => (
-            <LaunchItem key={launch.flight_number} {...launch}/>
+            <LaunchItem key={launch.flight_number} {...launch} />
           ))
         }
       </section>
